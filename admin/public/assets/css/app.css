@@ -1,0 +1,213 @@
+.form-control {
+    border-radius: 2px !important;
+    outline: orange !important;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+form.form-horizontal {
+    padding: 5px;
+}
+
+form.form-horizontal label {
+    font-weight: normal !important;
+    color: #959494;
+}
+
+.btn {
+    padding: 8px 17px;
+}
+
+.btn-success {
+    background-color: #95c16d !important;
+    border-radius: 2px !important;
+}
+
+.custom-panel .panel-heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    min-height: 48px;
+    background-color: #efe6e6;    
+}
+
+.page-content-header {
+    margin-bottom: 10px;
+}
+
+.color-orange {
+    background-color: #ff8942 !important;
+}
+
+.content-admin-map {
+    width: calc(100% - 222px);
+    height: calc(100% - 52px);
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: auto;    
+}
+
+#big-loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9999;
+    opacity: 0.9;
+    margin: auto;
+    display: block;
+}
+
+#big-loader span {    
+    font-size: 25px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: #716bab;
+}
+
+rect,
+polygon {
+    cursor: pointer;
+}
+
+.custom-modal .modal-header {
+    background-color: #977ccd;
+    color: #fff;
+}
+
+#change-grave-modal .modal-body {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+form.form-action-inline {
+    display: inline;
+}
+
+.attach-image-container {
+    padding: 10px 0 30px 0;
+}
+
+.pub-has-expired-grave {
+    position: absolute;
+    background-color: yellow;
+    padding: 20px;
+}
+
+
+/* Grave Details */
+table#grave-d-person {
+    width: 100%;
+    margin-top: 15px;
+}
+
+table#grave-d-person tr {
+    padding: 0;   
+    border-bottom: 1px solid #ccc;
+}
+
+table#grave-d-person tr td {
+    padding: 8px 8px 25px 8px;
+}
+
+table#grave-d-person tr td div.list {
+    display: block;    
+    font-weight: normal;
+}
+
+table#grave-d-person tr td div.list label {
+    display: inline;
+    margin: 0;
+    font-weight: normal;
+    color: #7d7d7d;
+}
+
+table#grave-d-person tr td div.list .circle-label {
+    padding: 18px;
+    border-radius: 50%;
+    background-color: #67905b;    
+    float: right;
+}
+
+#expired-grave-notification {
+    width: 320px;
+    border: 1px solid red;
+    position: absolute;
+    right: 19px;
+    bottom: 19px;
+    z-index: 9999;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#expired-grave-notification .header {
+    padding: 8px;
+    background-color: #dde91a;
+}
+
+#expired-grave-notification .header h4 {
+    display: inline;
+    font-weight: normal;
+    font-size: 15px;
+    color: #333;
+}
+
+#expired-grave-notification .header i {
+    position: absolute;
+    right: 8px;
+    cursor: pointer;
+}
+
+#expired-grave-notification .header i:hover {
+    color: #333;
+}
+
+#expired-grave-notification .content {
+    padding: 10px;
+    height: 142px;
+    overflow-y: scroll;
+    background-color: #fff;
+    overflow: auto;
+}
+
+#expired-grave-notification .content table {
+    width: 100%;
+    padding: 2px;
+}
+
+#expired-grave-notification .content table tr {
+   border-bottom: 1px solid #d0d0d0;
+}
+
+#expired-grave-notification .content table tr td span{
+      font-size: 12px;
+}
+
+#expired-grave-notification .content table tr td {
+      padding: 8px;
+      color: #666664;
+}
+
+#expired-grave-notification .content table tr td:hover {
+      background-color: #eeeded;
+      cursor: pointer;
+}
+
+#expired-grave-notification .content table tr td a {
+      color: #666664;
+}
+
+#expired-grave-notification .content table tr td a:hover {
+      background-color: #eeeded;
+      cursor: pointer;
+}
+
+#expired-grave-notification .content table tr td b{
+   display: block;
+   font-size: 12px;
+}

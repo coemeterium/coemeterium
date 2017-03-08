@@ -1,0 +1,9 @@
+{
+    "autoload":{
+        "psr-4": {            
+            "admin\\" : "admin",
+            "model\\" : "model",
+            "modelTrait\\" : "model/trait"
+        }
+    }
+}

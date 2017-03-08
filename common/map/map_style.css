@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#map_wrapper {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fafafa;
+    font-family: arial important;
+    position: relative;
+    height: 100%;
+    background: url('../../public/assets/img/map_empty_repeat.png') repeat;
+}
+
+#map_wrapper text {
+    font-family: arial;
+    color: #000 !important;        
+}
+
+#map_wrapper #block-a rect {
+    background-color: blue;
+}
+
+#map-left-sidebar {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 320px;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+
+}
+
+#map-left-sidebar .controls {
+    position: absolute;
+    border: 0;
+    bottom: 0;
+    background-color: #fafafa;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ccc;
+}
+
+#map-left-sidebar .controls .zoom-in {
+    border-radius: 50%;
+    background-color: #fc8238;
+    color: #fff;
+    border: 1px solid #f87c32;
+    padding: 4px 8px;
+    cursor: pointer;
+    outline: 0;
+}
+
+#map-left-sidebar .controls .zoom-out {
+    border-radius: 50%;
+    background-color: #fc8238;
+    color: #fff;
+    border: 1px solid #f87c32;
+    padding: 4px 10px;
+    cursor: pointer;
+    outline: 0;
+}
+
+#map-left-sidebar #map_search_wrapper {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#map-left-sidebar #map_search_wrapper input {
+    width: 230px;
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+    outline: 0;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+#map-left-sidebar #map_search_wrapper button {
+    width: 60px;
+    border-radius: 3px;
+    background-color: #fc8238;
+    color: #fff;
+    border: 1px solid #f87c32;
+    padding: 10px 5px;
+    cursor: pointer;
+    outline: 0;
+}
+
+#map-left-sidebar .controls .reset {
+    border-radius: 3px;
+    background-color: #fc8238;
+    color: #fff;
+    border: 1px solid #f87c32;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: 0;
+}
+
+#map-left-sidebar rect {
+    cursor: pointer !important;
+}
+
+.modal-content {
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.4);
+    box-shadow: 0 3px 9px rgba(0,0,0,0.4);
+    background-clip: padding-box;
+    border-radius: 3px !important;
+}

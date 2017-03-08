@@ -1,0 +1,24 @@
+#map_wrapper {
+    border: 2px solid red;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fafafa;
+    font-family: arial important;
+    position: relative;
+    height: 650px;
+}
+    
+#map_wrapper text {
+    font-family: arial;
+    color: #000 !important;        
+}
+    
+#map_wrapper #block-a rect {
+    background-color: blue;
+    border: 1px solid yellow;
+}
+    
+.controls {
+    position: absolute;
+    top: 0;
+}

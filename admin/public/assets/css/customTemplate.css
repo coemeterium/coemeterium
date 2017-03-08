@@ -1,0 +1,63 @@
+a.logo {
+    background-color: #9595da !important;
+    font-family: 'Lato', sans-serif !important;
+        background: url('../img/logo-small.png') no-repeat;
+}
+
+.navbar {
+    background-color: #977ccd !important;
+    color: #fff;
+}
+
+.navbar-btn span {
+    background-color: #fff !important;
+}
+
+.dropdown a span {
+    color: #fff !important;
+    font-weight: normal;
+}
+
+.dropdown a.dropdown-toggle i {
+    color: #fff !important;
+}
+
+.dropdown a i {
+    color: #342d2d !important;
+}
+
+.dropdown a:hover,
+.dropdown a:active,
+.dropdown a:focus {
+    background-color: #c4b2f9 !important;
+}
+
+.dropdown li a:hover,
+.dropdown li a:active,
+.dropdown li a:focus {
+    color: #fff !important;
+}
+
+.left-side {
+    background-color: #9595da !important;
+}
+
+.sidebar-menu {
+    border-bottom: 1px solid #9595da !important;
+}
+
+.sidebar-menu a:hover {
+    background-color: #c4b2f9 !important;
+}
+
+.sidebar-menu li.active a {
+    background-color: #c4b2f9 !important;    
+}
+
+.sidebar-menu > li:first-of-type {
+    border-top: 1px solid #9595da !important;
+}
+
+.sidebar {
+    border-bottom: 1px solid transparent !important;
+}
